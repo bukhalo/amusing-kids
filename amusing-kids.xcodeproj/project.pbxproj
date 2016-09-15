@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBEA993E1D8AFB0500DC4318 /* StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CBEA993D1D8AFB0500DC4318 /* StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CBEA99421D8AFB0600DC4318 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = CBEA99411D8AFB0500DC4318 /* Stickers.xcstickers */; };
+		CBEA99431D8AFB0600DC4318 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = CBEA99411D8AFB0500DC4318 /* Stickers.xcstickers */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBEA993F1D8AFB0500DC4318 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBEA99331D8AFB0500DC4318 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBEA993C1D8AFB0500DC4318;
+			remoteInfo = StickerPackExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CBEA99491D8AFB0600DC4318 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CBEA993E1D8AFB0500DC4318 /* StickerPackExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CBEA99391D8AFB0500DC4318 /* amusing-kids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "amusing-kids.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBEA993D1D8AFB0500DC4318 /* StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StickerPackExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBEA99411D8AFB0500DC4318 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = StickerPackExtension/Stickers.xcstickers; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		CBEA99321D8AFB0500DC4318 = {
+			isa = PBXGroup;
+			children = (
+				CBEA99411D8AFB0500DC4318 /* Stickers.xcstickers */,
+				CBEA993A1D8AFB0500DC4318 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBEA993A1D8AFB0500DC4318 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBEA99391D8AFB0500DC4318 /* amusing-kids.app */,
+				CBEA993D1D8AFB0500DC4318 /* StickerPackExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBEA99381D8AFB0500DC4318 /* amusing-kids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBEA994A1D8AFB0600DC4318 /* Build configuration list for PBXNativeTarget "amusing-kids" */;
+			buildPhases = (
+				CBEA99371D8AFB0500DC4318 /* Resources */,
+				CBEA99491D8AFB0600DC4318 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBEA99401D8AFB0500DC4318 /* PBXTargetDependency */,
+			);
+			name = "amusing-kids";
+			productName = "amusing-kids";
+			productReference = CBEA99391D8AFB0500DC4318 /* amusing-kids.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		CBEA993C1D8AFB0500DC4318 /* StickerPackExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBEA99461D8AFB0600DC4318 /* Build configuration list for PBXNativeTarget "StickerPackExtension" */;
+			buildPhases = (
+				CBEA993B1D8AFB0500DC4318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StickerPackExtension;
+			productName = StickerPackExtension;
+			productReference = CBEA993D1D8AFB0500DC4318 /* StickerPackExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBEA99331D8AFB0500DC4318 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Aleksandr Bukhalo";
+				TargetAttributes = {
+					CBEA99381D8AFB0500DC4318 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2YJYBGG5KZ;
+						ProvisioningStyle = Automatic;
+					};
+					CBEA993C1D8AFB0500DC4318 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2YJYBGG5KZ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CBEA99361D8AFB0500DC4318 /* Build configuration list for PBXProject "amusing-kids" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CBEA99321D8AFB0500DC4318;
+			productRefGroup = CBEA993A1D8AFB0500DC4318 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBEA99381D8AFB0500DC4318 /* amusing-kids */,
+				CBEA993C1D8AFB0500DC4318 /* StickerPackExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBEA99371D8AFB0500DC4318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBEA99431D8AFB0600DC4318 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBEA993B1D8AFB0500DC4318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBEA99421D8AFB0600DC4318 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBEA99401D8AFB0500DC4318 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBEA993C1D8AFB0500DC4318 /* StickerPackExtension */;
+			targetProxy = CBEA993F1D8AFB0500DC4318 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CBEA99441D8AFB0600DC4318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CBEA99451D8AFB0600DC4318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBEA99471D8AFB0600DC4318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 2YJYBGG5KZ;
+				INFOPLIST_FILE = StickerPackExtension/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evilsprut.amusing-kids.StickerPackExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CBEA99481D8AFB0600DC4318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 2YJYBGG5KZ;
+				INFOPLIST_FILE = StickerPackExtension/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evilsprut.amusing-kids.StickerPackExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CBEA994B1D8AFB0600DC4318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 2YJYBGG5KZ;
+				INFOPLIST_FILE = "amusing-kids/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evilsprut.amusing-kids";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBEA994C1D8AFB0600DC4318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 2YJYBGG5KZ;
+				INFOPLIST_FILE = "amusing-kids/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evilsprut.amusing-kids";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBEA99361D8AFB0500DC4318 /* Build configuration list for PBXProject "amusing-kids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBEA99441D8AFB0600DC4318 /* Debug */,
+				CBEA99451D8AFB0600DC4318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBEA99461D8AFB0600DC4318 /* Build configuration list for PBXNativeTarget "StickerPackExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBEA99471D8AFB0600DC4318 /* Debug */,
+				CBEA99481D8AFB0600DC4318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBEA994A1D8AFB0600DC4318 /* Build configuration list for PBXNativeTarget "amusing-kids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBEA994B1D8AFB0600DC4318 /* Debug */,
+				CBEA994C1D8AFB0600DC4318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBEA99331D8AFB0500DC4318 /* Project object */;
+}

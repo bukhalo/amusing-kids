@@ -67,16 +67,26 @@
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES"
       launchAutomaticallySubstyle = "2">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "1"
+         BundleIdentifier = "com.apple.MobileSMS">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CBEA99381D8AFB0500DC4318"
-            BuildableName = "amusing-kids.app"
-            BlueprintName = "amusing-kids"
+            BlueprintIdentifier = "CBEA993C1D8AFB0500DC4318"
+            BuildableName = "StickerPackExtension.appex"
+            BlueprintName = "StickerPackExtension"
             ReferencedContainer = "container:amusing-kids.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CBEA993C1D8AFB0500DC4318"
+            BuildableName = "StickerPackExtension.appex"
+            BlueprintName = "StickerPackExtension"
+            ReferencedContainer = "container:amusing-kids.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>

@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  amusing-kids
+
+  Created by Aleksandr Bukhalo on 28/09/2016.
+  Copyright © 2016 Aleksandr Bukhalo. All rights reserved.
+*/
+
+"CFBundleDisplayName" = "Забавные детишки";
+"CFBundleName" = "Забавные детишки";

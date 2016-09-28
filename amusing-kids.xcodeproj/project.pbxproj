@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB0A28861D9BBE3800109542 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB0A28891D9BBE3800109542 /* InfoPlist.strings */; };
+		CB0A28871D9BBE3800109542 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB0A28891D9BBE3800109542 /* InfoPlist.strings */; };
 		CBEA993E1D8AFB0500DC4318 /* StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CBEA993D1D8AFB0500DC4318 /* StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		CBEA99421D8AFB0600DC4318 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = CBEA99411D8AFB0500DC4318 /* Stickers.xcstickers */; };
 		CBEA99431D8AFB0600DC4318 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = CBEA99411D8AFB0500DC4318 /* Stickers.xcstickers */; };
@@ -37,6 +39,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CB0A28881D9BBE3800109542 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB0A288A1D9BBE5A00109542 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CBEA99391D8AFB0500DC4318 /* amusing-kids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "amusing-kids.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBEA993D1D8AFB0500DC4318 /* StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StickerPackExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBEA99411D8AFB0500DC4318 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = StickerPackExtension/Stickers.xcstickers; sourceTree = "<group>"; };
@@ -46,6 +50,7 @@
 		CBEA99321D8AFB0500DC4318 = {
 			isa = PBXGroup;
 			children = (
+				CB0A28891D9BBE3800109542 /* InfoPlist.strings */,
 				CBEA99411D8AFB0500DC4318 /* Stickers.xcstickers */,
 				CBEA993A1D8AFB0500DC4318 /* Products */,
 			);
@@ -122,6 +127,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				ru,
 			);
 			mainGroup = CBEA99321D8AFB0500DC4318;
 			productRefGroup = CBEA993A1D8AFB0500DC4318 /* Products */;
@@ -140,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBEA99431D8AFB0600DC4318 /* Stickers.xcstickers in Resources */,
+				CB0A28861D9BBE3800109542 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBEA99421D8AFB0600DC4318 /* Stickers.xcstickers in Resources */,
+				CB0A28871D9BBE3800109542 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,11 +169,24 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		CB0A28891D9BBE3800109542 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB0A28881D9BBE3800109542 /* en */,
+				CB0A288A1D9BBE5A00109542 /* ru */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		CBEA99441D8AFB0600DC4318 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -213,6 +234,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -319,6 +341,7 @@
 				CBEA99481D8AFB0600DC4318 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBEA994A1D8AFB0600DC4318 /* Build configuration list for PBXNativeTarget "amusing-kids" */ = {
 			isa = XCConfigurationList;
@@ -327,6 +350,7 @@
 				CBEA994C1D8AFB0600DC4318 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

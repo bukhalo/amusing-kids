@@ -1,7 +1,4 @@
 # Amusing kids - sticker pack for iMessage
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fbukhalo%2Famusing-kids.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fbukhalo%2Famusing-kids?ref=badge_shield)
-
-
 My first experiment with iOS development, Xcode, App Store, etc.
 
 ## Screenshots
@@ -12,7 +9,3 @@ My first experiment with iOS development, Xcode, App Store, etc.
 
 ## Thanks
 [Valeria Belousova](https://vk.com/ler1k) for awesome sticker pack design.
-
-
-## License
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fbukhalo%2Famusing-kids.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fbukhalo%2Famusing-kids?ref=badge_large)

@@ -7,5 +7,6 @@ My first experiment with iOS development, Xcode, App Store, etc.
   <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple62/v4/39/ff/db/39ffdb5b-fcdb-db1c-f394-cfac8ad27439/pr_source.png/0x0ss.jpg" width="320" />
 </p>
 
-## Thanks
-[Valeria Belousova](https://vk.com/ler1k) for awesome sticker pack design.
+## Licenses
+Repository source code is distributed under the GPL-3.0 license.
+The rights to all illustrations belong to the designer Valeria Belousova and are prohibited for commercial use.
